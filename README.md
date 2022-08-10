@@ -1,4 +1,4 @@
-# Starter shell for React Native project with Detox tests running on Github Actions- Swati
+# Starter shell for React Native project with Detox tests running on Github Actions- Swati test
 
 It includes two Github Actions workflows to run end to end Detox tests.
 - [iOS](https://github.com/edvinasbartkus/react-native-detox-github-actions/blob/master/.github/workflows/ios.yml)
