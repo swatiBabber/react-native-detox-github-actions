@@ -58,6 +58,8 @@ jobs:
 
     - name: Android Detox
       run: yarn start & yarn test-detox-android
+      env:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
 
     - name: Store Detox artifacts on test failure
       uses: actions/upload-artifact@v3
@@ -65,3 +67,5 @@ jobs:
       with:
         name: detox-artifacts
         path: artifacts # Default path for Detox artifacts
+      env:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
