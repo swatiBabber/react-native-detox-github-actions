@@ -68,4 +68,4 @@ jobs:
         name: detox-artifacts
         path: artifacts # Default path for Detox artifacts
       env:
-        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true' 
